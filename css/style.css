@@ -134,7 +134,7 @@ li span {
   width: 20px;
   height: 20px;
   border: 2px solid #ccc;
-  border-radius: 5px;
+  border-radius: 50%;
   outline: none;
   margin-right: 8px;
 }
