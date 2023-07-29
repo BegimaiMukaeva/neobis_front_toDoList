@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="name-here">What's up ,
+        <input class="user-name" type="text" placeholder="Name here">
+      </div>
+      <p class="todo-title">Creat a todo</p>
+      <p class="todo-list-text">What's on your todo list?</p>
+      <form id="todo-form">
+        <input type="text" id="todo-name" placeholder="Task name" required>
+        <p class="category-text">Pick a category</p>
+        <div class="radio-boxes">
+          <div class="radio-box">
+            <label>
+              <input type="radio" name="category" value="Business" id="business-radio" > Business
+            </label>
+          </div>
+          <div class="radio-box">
+            <label>
+              <input type="radio" name="category" value="Personal" id="personal-radio"> Personal
+            </label>
+          </div>
+         </div>
+        <button class="add-button" type="submit">Add todo</button>
+      </form>
+      <p class="todo-title">todo list</p>
+      <ul id="todo-list">
+
+      </ul>
+    </div>
+  </body>
+</html>
